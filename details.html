@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    
+    <div class="post-container">
+        <div class="title">
+            <h4>SINGLE COMMENT</h4>
+        </div>
+        <p id="single_post"></p>
+
+        <div class="buttons">
+            <div class="see-posts">
+                <a href="index.html">See all</a>
+            </div>
+            <div class="create-new">
+                <a href="create.html">New +</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascripts/details.js"></script>
+</body>
+</html>
+
+<style>
+    
+.post-container{
+    background-color: #fff;
+    margin: 3em 8em 3em;
+    padding: 2em;
+    box-shadow: 1px 3px 10px 3px #a8a8a8;
+}
+
+.post-container .title{
+
+    font-family: "Poppins", Arial, sans-serif;;
+    color: #278ddc;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+    /* border: 2px #000 solid; */
+}
+
+.post-container #single_post{
+    font-family: "Poppins", Arial, sans-serif;
+    
+}
+
+.post-container #single_post h2{
+    color: #999;
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.post-container #single_post p{
+    color: #999;
+    font-size: 18px;
+    margin-top: -12px;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.post-container #single_post p a{
+    color: #fff;
+    font-size: 14px;
+    background-color: #278ddc;
+    padding: 3px;
+    margin: auto;
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.post-container #single_post p a:hover{
+    background-color: #fff;
+    color: #278ddc;
+    text-decoration: underline;
+}
+
+.create-new{
+    margin-top: 48px;
+}
+.create-new a{
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    background-color: #278ddc;
+    padding: 8px;
+    margin-left: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.see-posts a{
+    margin-top: 48px;
+}
+.see-posts a{
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    background-color: #278ddc;
+    padding: 8px;
+    margin-top: -7px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    float: left;
+}
+
+</style>

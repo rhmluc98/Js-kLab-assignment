@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { 
+        "id": 1, 
+        "title": "json-server",
+        "author": "Admin", 
+        "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      }
+    ]
+
+  }
