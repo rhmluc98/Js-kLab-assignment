@@ -13,8 +13,11 @@ const Arrowfunction = async () =>
     data += 
     `
         <h2>${row.title}</h2>
-        <p>${row.content} <a href="details.html?id=${row.id}">View Details</a></p>
+        <span>${row.content.slice(0,50)}... <a href="details.html?id=${row.id}">View Details</a></span>
     `
+    // let contents = row.content
+    // contents.length > 20 ? data += `<p>${contents.slice(0, 20)} <a href="details.html?id=${row.id}">View Details</a></p>` : data += `<p>${contents}<p/>`
+
   })
   
   console.log(data);

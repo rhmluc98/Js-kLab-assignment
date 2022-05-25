@@ -1,11 +1,16 @@
 {
-    "posts": [
-      { 
-        "id": 1, 
-        "title": "json-server",
-        "author": "Admin", 
-        "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      }
-    ]
-
-  }
+  "posts": [
+    {
+      "title": "Test ",
+      "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti numquam, fuga aliquam unde asperiores eaque fugiat animi ratione et, adipisci cumque voluptatem tempora necessitatibus commodi dolore beatae cupiditate amet maiores.",
+      "author": "Admin",
+      "id": 2
+    },
+    {
+      "title": "Post",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga quae ut voluptates quia repellat id vel deserunt dicta eum perspiciatis, consectetur quibusdam aut necessitatibus. ",
+      "author": "Admin",
+      "id": 3
+    }
+  ]
+}
